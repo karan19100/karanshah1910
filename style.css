@@ -5,6 +5,8 @@
   License: https://bootstrapmade.com/license/
 */
 
+/* https://karanshah19100.github.io */ 
+
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
@@ -625,7 +627,7 @@ a:hover {
 .intro .intro-title {
   color: #fff;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .intro .intro-subtitle {
@@ -783,6 +785,7 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  height:200px;       /* sab ko same line mai rakne ke liye project mai height mention kiya */
 }
 
 .work-img img {
