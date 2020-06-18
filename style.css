@@ -60,6 +60,8 @@ a:hover {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .box-shadow-a,
 .button:hover {
   box-shadow: 0 0 0 4px #cde1f8;
@@ -89,6 +91,7 @@ a:hover {
   background-attachment: scroll;
   background-size: cover;
   background-position: center center;
+  padding:0px;
 }
 
 .overlay-mf {
@@ -99,7 +102,7 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0px;
-  padding: 0;
+  padding: 0px;
   height: 100%;
   width: 100%;
   opacity: .7;
@@ -150,7 +153,7 @@ a:hover {
 }
 
 .title-a {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -794,6 +797,7 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  height: 121px;
 }
 
 .work-content .w-more {
@@ -871,6 +875,10 @@ a:hover {
 
 .card-blog .card-body {
   position: relative;
+  height: 110px;
+}
+.card-footer{
+  height:85px;
 }
 
 .card-blog .card-category-box {
