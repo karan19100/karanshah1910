@@ -155,8 +155,8 @@
                     <h5 class="title-left">
                       About me
                       <a class="btn btn-warning pull-right"
-                        href="https://drive.google.com/file/d/1LPqCZltKe8UNyDaVtgfoZyXrVt_AMWV-/view"
-                        target="_blank"><i class="fa fa-file-text"></i> Resume</a>
+                        href=https://drive.google.com/file/d/1LPqCZltKe8UNyDaVtgfoZyXrVt_AMWV-/view                       
+                         target="_blank"><i class="fa fa-file-text"></i> Resume</a>
                     </h5>
                   </div>
                   <p class="lead">
@@ -257,6 +257,12 @@
             </div>
           </div>
         </div>
+
+
+
+
+
+        
       </div>
   </section>
   <!--/ Section Services End /-->
@@ -554,7 +560,7 @@
                 </div>
               </div>
               <h3 class="card-title"><a
-                  href=" ">Campus
+                  href="">Campus
                   Ambassador</a></h3>
             </div>
             <div class="card-footer">
@@ -687,6 +693,11 @@
             </div>
           </div>
         </div>
+          <div class="col-md-12 text-center">
+         <div class="btn-container">
+           <button class="read-toggle">Read More</button>
+        </div>
+        </div>
       </div>
     </div>
 
@@ -769,7 +780,7 @@
                     </div>
                     <div class="socials">
                       <ul>
-                          <li><a href="https://www.linkedin.com/in/karan-shah-a8ab6016b/"><span class="ico-circle"><i
+                        <li><a href="https://www.linkedin.com/in/karan-shah-a8ab6016b/"><span class="ico-circle"><i
                                 class="fa fa-linkedin"></i></span></a></li>
                         <li><a href="https://github.com/karan19100"><span class="ico-circle"><i
                                 class="fa fa-github"></i></span></a></li>
@@ -827,6 +838,38 @@
     <script src="./owl.carousel.min.js.download"></script>
     <script src="./lightbox.min.js.download"></script>
     <script src="./typed.min.js.download"></script>
+
+    
+        <!-- for slider in certificate i.e show more/ show less -->
+
+        <script>
+      var readToggleButton=document.querySelector('.read-toggle');
+      Array.from(document.querySelectorAll('.card-blog')).forEach((res,index)=>{
+        if(index>2){
+        res.style.display='none';
+        }
+      });
+      readToggleButton.addEventListener('click',()=>{
+        console.log(readToggleButton);
+        if(readToggleButton.textContent==='Read More'){
+          readToggleButton.textContent='Read Less';
+        }
+        else{
+          readToggleButton.textContent='Read More';
+        }
+        var listOfCards=document.querySelectorAll('.card-blog');
+        var arrayOfCards=Array.from(listOfCards);
+        for(let i=3;i<6;i++){
+          if(readToggleButton.textContent==='Read Less')
+          arrayOfCards[i].style.display='block';
+          else{
+            arrayOfCards[i].style.display='none';
+          }
+        }
+      });
+    </script>
+
+
     <!-- Contact Form JavaScript File -->
     <script src="./contactform.js.download"></script>
 
