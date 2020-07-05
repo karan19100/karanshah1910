@@ -845,9 +845,8 @@ button{
   font-size:20px;
   background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   color:white;
-  font-family:cursive;
+  font-family:inherit;
   box-sizing:border-box;
-  font-style:Comic Sans MS;
 }
 /*======================================
 //--//-->   TESTIMONIALS
