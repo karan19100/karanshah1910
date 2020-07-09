@@ -827,14 +827,7 @@ a:hover {
   font-size: 1.2rem;
 }
 
-.btn-container{
-  margin: auto;
-  height:44px;
-  width:166.23px;
-  
-}
-
-button{
+.read-toggle{
   user-select:none;
   -webkit-user-select:none;
   -moz-user-select:none;
@@ -843,11 +836,15 @@ button{
   border:none;
   padding:10px;
   font-size:20px;
-  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  background:#0078ff;
   color:white;
   font-family:inherit;
   box-sizing:border-box;
+  width:150px;
+  border-radius:5px;
 }
+
+
 /*======================================
 //--//-->   TESTIMONIALS
 ======================================*/
