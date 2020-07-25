@@ -390,7 +390,7 @@
         </div>
         <div class="col-md-4">
           <div class="work-box" id="Code-For-Good-2018-Educon">
-            <a href="https://github.com/karan19100/Prediction-of-blood-characteristic-by-hc-hg-on-sports-athletic">
+            <a href="https://medium.com/swlh/correlation-and-regression-a-case-study-in-r-d6ce4b145e81">
               <div class="work-img">
                 <img src="./outputimg9.PNG" alt="" class="img-fluid">
               </div>
@@ -511,7 +511,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 interactivity-card">
           <div class="card card-blog">
             <div class="card-img">
               <a href="./JP1.jpg" data-lightbox="gallery-mf"><img src="./JP1.jpg" alt="" class="lazy img-fluid"></a>
@@ -695,6 +695,7 @@
     </div>
 
 
+
     <!--/ Section Blog End /-->
 
     <!--/ Section Contact-Footer Star /-->
@@ -834,6 +835,9 @@
 
     <script>
       var readToggleButton=document.querySelector('.read-toggle');
+      var interactivityCard=document.querySelector('.interactivity-card');
+      console.log(interactivityCard);
+
       Array.from(document.querySelectorAll('.card-blog')).forEach((res,index)=>{
         if(index>2){
         res.style.display='none';
@@ -856,6 +860,8 @@
             arrayOfCards[i].style.display='none';
           }
         }
+        interactivityCard.focus();
+        interactivityCard.scrollIntoView();
       });
     </script>
 
