@@ -630,7 +630,7 @@ a:hover {
 .intro .intro-title {
   color: #fff;
   font-weight: 600;
-  }
+ }
 
 .intro .intro-subtitle {
   font-size: 1.5rem;
@@ -812,7 +812,20 @@ a:hover {
   font-size: 2.5rem;
   color: #0078ff;
   float: right;
+  box-sizing: border-box;
 }
+
+@media screen and (max-width: 1200px){
+
+.work-content .w-like {
+  font-size: 1.8rem;
+  color: #0078ff;
+  float: right;
+  box-sizing: border-box;
+}
+
+}
+
 
 .work-content .w-like a {
   color: #0078ff;
@@ -841,6 +854,7 @@ a:hover {
   box-sizing:border-box;
   width:150px;
   border-radius:5px;
+  border-color: #cde1f8 !important;
 }
 
 
